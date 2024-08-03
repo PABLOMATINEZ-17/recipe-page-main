@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@media screen and (max-width: 375px) {
+  .picture {
+    max-width: 375px;
+    height: fit-content;
+    padding: unset;
+    box-sizing: content-box;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+.omelette {
+  width: 100%;
+  border-radius: 20px;
+}
+.picture {
+  background-color: white;
+  /* max-width: 1440px; */
+  height: fit-content;
+  width: 600px;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 20px;
+  color: hsl(30, 10%, 34%);
+}
+.heading {
+  font-family: "young serif" serif;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.content {
+  font-family: "outfit";
+}
+.preparation {
+  margin-top: 20px;
+  font-family: "outfit";
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+}
+.list1 {
+  background-color: hsl(330, 100%, 98%);
+}
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+li {
+  padding: 5px 0;
+}
+ol,
+ul {
+  padding: 0 20px;
+  font-family: "outfit";
+}
+span {
+  font-weight: 700;
+}
+.sub {
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-size: 28px;
+  font-family: "young serif" serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  border-width: 100%;
+}
+.bold-data {
+  padding: 10px 30px;
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
